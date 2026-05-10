@@ -792,9 +792,10 @@ a,button{
         border: 1px solid var(--color-bg);
         box-shadow: 3px 3px 0px var(--color-bg);
         background: var(--color-contrast);
-        padding: 1em;
+        padding: 1.5em;
         margin-bottom: 2rem;
         transition: var(--transition-base);
+
         &:hover{
             transform: translateY(-.5rem);
         }
@@ -823,26 +824,33 @@ a,button{
         .data{
             padding-bottom: .5em;
             font-size: .8em;
-            padding-left: .5em;
             margin-bottom: .5em;
-            gap: 1em;
-            @media(max-width: 800px){ 
-                gap: .5em;
-            }
+            gap: .8em 1em;
             span{
                 white-space: nowrap;
             }
         }
         .comment{
             font-size: .8em;
-            padding-left: .5em;
-
             p{
                 line-height: 1.5;
                 padding-top: .5em;
             }
         }
     }
+    @media(max-width: 550px){ 
+        .archive-item{
+            padding: 1em;
+            .data{
+              flex-wrap: wrap;
+                .total-time{
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
 
 }
 /* ====================
