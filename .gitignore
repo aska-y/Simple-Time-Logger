@@ -53,7 +53,7 @@ build/
 htmlcov/
 
 # Django
-db.sqlite3
+#db.sqlite3
 
 
 # ======================
