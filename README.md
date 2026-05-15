@@ -2,6 +2,9 @@
 
 <video src="https://github.com/user-attachments/assets/16b76973-2df4-4378-8832-73363e2fe84e" width="80%" controls></video>
 <br />
+ログインアカウント<br/>
+E-mail: test@example.com<br/>
+Password: test123
 <br />
 
 ## 使用技術一覧
